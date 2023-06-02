@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(245, 245, 245);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: red;
+    font-size: 1.45em;
+}
+
+header img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px, 12px;
+    padding-bottom: 25px, 12px;
+}
+
+header a{
+    padding: 5px, 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: red;
+}
+
+#indice{
+   color: white;
+   background-color: rgb(45,45,45);
+}
+
+#indice .conte{
+    display: flex;
+    padding: 50px;
+    padding-left: 25px;
+}
+
+#indice a{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+#indice a:hover{
+    color: red;
+}
+
+#indice h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5em;
+    padding-bottom: 25px;
+}
+
+#indice .contelogo{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://scontent.ftgu3-3.fna.fbcdn.net/v/t39.30808-6/251467434_2139420336204940_6898348306348174650_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Tb7qWDP7meMAX-64wKu&_nc_ht=scontent.ftgu3-3.fna&oh=00_AfBNCSOLILmqnKzChIDUj333JK5PuGXA5eVyEfRckiTSDg&oe=647E3012");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+}
+
+#indice .texto{
+    padding-left: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#basicas{
+    color: white;
+    text-align: center;
+    background-color: rgb(57, 54, 54);
+}
+#basicas h1{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+#basica .conte{
+    padding: 12px;
+}
+
+#basicas h2{
+    color: red;
+}
+
+#basicas p{
+    color: white;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#basicas .carta{
+    padding: 10px;
+    margin: 0px;
+    border-radius: 15px;
+}
+
+#basicas .carta:first-child{
+    background-color: rgba(70, 63, 63, 0.974);
+}
+
+#basicas .carta:nth-child(2){
+    background-color: rgb(70, 63, 63, 0.974);
+}
+
+#carreras{
+    color: white;
+    background-color: rgb(45,45,45);
+    text-align: center;
+}
+
+#carrera{
+    color: white;
+    background-color: rgb(45,45,45);
+    text-align: center;
+}
+
+#carrera h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+}
+
+#carreras h2{
+    color: red;
+}
+
+#carreras .conte{
+    padding: 150px 12px;
+}
+
+#carreras p{
+    color: white;
+    display: block;
+}
+
+#carreras .carta{
+    padding-bottom: 0px;
+    padding: 30px;
+    margin: 0px;
+    border-radius: 15px;
+}
+
+#carreras .carta:first-child{
+    background-color: rgb(15,15,15);
+}
+
+#carreras .carta:nth-child(2){
+    background-color: rgb(15,15,15);
+}
+
+#carreras .carta:nth-child(3){
+    background-color: rgb(15,15,15);
+}
+
+#horario .conte{
+    color: white;
+    background-color: rgb(45,45,45) ;
+    text-align: initial;
+    margin-top: 0;
+}
+
+#horario h1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#horario h2{
+    color: rgb(9, 143, 245);
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15,15,15);
+}
+
+#horario p{
+    display: flex;
+    justify-content: center;
+}
+
+#requisitos .conte{
+    color: white;
+    background-color: rgb(15,15,15);
+    text-align: initial;
+    margin-top: 0;
+}
+
+#requisitos h1{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#requisitos h2{
+    color: green;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(15,15,15);
+}
+
+#requisitos ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(45,45,45);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width: 720px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    header .contenedor{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        flex-direction: row;
+        padding-left: 10px;
+        padding-bottom: 0;
+        padding-right: 30px;
+    }
+
+    header a{
+        font-weight: 600;
+        padding-right:12px;
+    }
+}

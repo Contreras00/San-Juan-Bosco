@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="contactanos.css">
+    <!--Icon-Font-->
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <form action="https://formsubmit.co/tedaelque72@gmail.com" method="POST">
+        <header>
+            <a href="index.html" class="logo">
+            <img src="https://scontent.ftgu3-3.fna.fbcdn.net/v/t39.30808-6/251467434_2139420336204940_6898348306348174650_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Tb7qWDP7meMAX-64wKu&_nc_ht=scontent.ftgu3-3.fna&oh=00_AfBNCSOLILmqnKzChIDUj333JK5PuGXA5eVyEfRckiTSDg&oe=647E3012" alt="">
+            <h2 class="instituto">San Juan bosco</h2>
+            </a>
+            <div>
+                <nav>
+                    <a href="Opciones-academicas.html" class="nav-link">Opciones academicas</a>
+                    <a href="fotos.html" class="nav-link">Galeria de fotos</a>
+                    <a href="#" class="nav-link">Fotos y videos</a>
+            </nav>
+            </div>
+           </header>
+
+        <div class="input-group">
+
+            <label for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Nombre">
+
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone" id="phone" placeholder="Telefono">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Email">
+
+            <label for="message">Mensaje</label>
+            <textarea name="message" id="message" cols="30" placeholder="message"> </textarea>
+
+            <input class="btn" type="submit" value="Enviar">
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/contactanos.html?">
+           <input type="hidden" name="_captcha" value="false">
+
+        </div>
+    </form>
+</body>
+</html>
